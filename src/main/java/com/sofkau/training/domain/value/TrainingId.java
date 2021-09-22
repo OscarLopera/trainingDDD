@@ -4,7 +4,7 @@ import co.com.sofka.domain.generic.Identity;
 
 public class TrainingId extends Identity {
 
-    private TrainingId(String id){
+    public TrainingId(String id){
         super(id);
     }
 

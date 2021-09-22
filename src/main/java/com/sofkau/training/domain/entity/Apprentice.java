@@ -1,11 +1,11 @@
-package com.sofkau.training.domain;
+package com.sofkau.training.domain.entity;
 
 import co.com.sofka.domain.generic.Entity;
 import com.sofkau.training.domain.value.Age;
 import com.sofkau.training.domain.value.ApprenticeId;
 import com.sofkau.training.domain.value.Name;
 
-public class Apprentice extends Entity {
+public class Apprentice extends Entity<ApprenticeId> {
 
     protected ApprenticeId apprenticeId;
     protected Name name;
